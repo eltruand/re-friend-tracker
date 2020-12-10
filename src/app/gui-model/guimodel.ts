@@ -327,7 +327,7 @@ export class GuiModel {
                             "type": "button",
                             "name": "EditFriend",
                             "icon": "fa-edit",
-                            "color": "green",
+                            "color": "orange",
                             "url": "/friend",
                             "form": {
                                 "form": "FriendForm"
@@ -336,8 +336,8 @@ export class GuiModel {
                         {
                             "type": "newButton",
                             "name": "AddActivity",
-                            "icon": "fa-volleyball-ball",
-                            "color": "red",
+                            "icon": "fa-plus",
+                            "color": "green",
                             "form":{
                                 "form": "AddActivityForm"
                             }
@@ -345,7 +345,7 @@ export class GuiModel {
                         {
                             "type": "list",
                             "icon": "fa-volleyball-ball",
-                            "color": "blue",
+                            "color": "red",
                             "search": true,
                             "url": "/friend/:friendKey/activity",
                             "form": {
@@ -422,7 +422,7 @@ export class GuiModel {
                             "type": "button",
                             "name": "EditLocation",
                             "icon": "fa-edit",
-                            "color": "green",
+                            "color": "orange",
                             "url": "/location",
                             "form": {
                                 "form": "LocationForm"
@@ -476,7 +476,7 @@ export class GuiModel {
                             "type": "button",
                             "name": "EditActivity",
                             "icon": "fa-edit",   
-                            "color": "green",
+                            "color": "orange",
                             "url": "/activity",
                             "form": {
                              "form": "ActivityForm"
