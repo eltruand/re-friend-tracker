@@ -292,6 +292,7 @@ export class GuiModel {
                             "name": "NewFriend",
                             "icon": "fa-user-plus",
                             "color": "green",
+                            "width":2,
                             "form": {
                                 "form": "FriendForm"
                             }
@@ -369,6 +370,7 @@ export class GuiModel {
                             "name": "NewGroup",
                             "icon": "fa-plus",
                             "color": "green",
+                            "width":2,
                             "form":{
                                 "form": "GroupForm"
                             }
@@ -398,6 +400,7 @@ export class GuiModel {
                             "name": "NewLocation",
                             "icon": "fa-plus",
                             "color": "green",
+                            "width":2,
                             "form":{
                                 "form": "LocationForm"
                             }
@@ -452,6 +455,7 @@ export class GuiModel {
                             "name": "NewActivity",
                             "icon": "fa-plus",
                             "color": "green",
+                            "width": 2,
                             "form": {
                                 "form": "AddActivityForm"
                             }
